@@ -11,7 +11,7 @@ import {
   TypeNameMetaFieldDef,
   GraphQLFieldResolver,
 } from 'graphql';
-import { Trace, google } from 'apollo-engine-reporting-protobuf';
+import { Trace, google } from 'apollo-reporting-protobuf';
 import { defaultRootOperationNameLookup } from '@apollo/federation';
 import { GraphQLDataSource } from './datasources/types';
 import {
